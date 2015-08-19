@@ -23,6 +23,6 @@ cp authorized.json.default authorized.json
 
 virtualenv venv; source venv/bin/activate; pip install -r requirements/production.txt
 
-6) Start the application in a detachable screen on a user that has write privileges on /etc/tinyproxy.conf
+6) Ensure your VENV is activated, then start the application in a detachable screen on a user that has write privileges on /etc/tinyproxy.conf
 
 ./start_authorizer.sh
