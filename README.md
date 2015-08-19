@@ -5,7 +5,7 @@ TinyProxyAuthorizer is a Flask app for self serve IP whitelisting.
 
 1) Install the following packages (install line is for aptitude, modify as necessary):
 
-apt-get install python python-pip virtualenv git screen
+apt-get install python python-pip python-virtualenv git screen
 
 2) Clone the repo:
 
