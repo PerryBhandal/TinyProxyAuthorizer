@@ -43,4 +43,4 @@ def write_proxy_conf():
             conf_write.write("Allow %s\n" % address)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
