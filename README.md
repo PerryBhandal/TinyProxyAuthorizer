@@ -19,9 +19,9 @@ cd tiny_proxy_auhthorizer
 
 cp authorized.json.default authorized.json
 
-5) Create a virtual environment and install all dependencies.
+5) Create a virtual environment, activate it then install all dependencies.
 
-virtualenv venv; pip install -r requirements/production.txt
+virtualenv venv; source venv/bin/activate; pip install -r requirements/production.txt
 
 6) Start the application in a detachable screen on a user that has write privileges on /etc/tinyproxy.conf
 
