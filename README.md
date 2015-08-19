@@ -13,7 +13,7 @@ git clone https://github.com/PerryBhandal/TinyProxyAuthorizer.git
 
 3) CD into the script directory:
 
-cd tiny_proxy_auhthorizer
+cd tiny_proxy_authorizer
 
 4) Copy authorized.json.default to authorized.json
 
