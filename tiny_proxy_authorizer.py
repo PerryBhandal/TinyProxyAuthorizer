@@ -1,4 +1,5 @@
 from flask import Flask, request
+from subprocess import call
 import json
 
 app = Flask(__name__)
@@ -41,6 +42,8 @@ def write_proxy_conf():
 
         for address in authorized_list["authorized"]:
             conf_write.write("Allow %s\n" % address)
+
+    call("/etc/init.d/tinyproxy restart".split(" "))
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
